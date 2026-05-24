@@ -84,7 +84,7 @@ function onsubmit(ele){
     movieform.reset()
 
     let div = document.createElement('div')
-    div.className =`.col-md-3`
+    div.className =`col-md-3`
     div.id = newmovie.movieId
 
     div.innerHTML =`<div class="card moviecard">
