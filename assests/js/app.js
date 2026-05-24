@@ -13,7 +13,7 @@ const addbtn = document.getElementById('addbtn')
 const closebtn = [...document.querySelectorAll('.closebtn')]
 
 let moviesArr =[]
-moviesArr = JSON.parse(localStorage.getItem('movieArr'))
+moviesArr = JSON.parse(localStorage.getItem('movieArr')) || []
 
 
 function movierating(rating){
