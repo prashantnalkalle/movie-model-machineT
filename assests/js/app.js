@@ -83,6 +83,8 @@ function onsubmit(ele){
 
     movieform.reset()
 
+    onshowhandl()
+
     let div = document.createElement('div')
     div.className =`col-md-3`
     div.id = newmovie.movieId
